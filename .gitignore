@@ -1,0 +1,20 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files - do not upload secrets
+.env
+**/.env
+.env.*
+**/.env.*
+
+# Build files
+client/dist/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
